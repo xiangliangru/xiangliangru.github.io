@@ -1,798 +1,175 @@
-<!DOCTYPE html>
-<html lang="zh-CN">
-<head>
-  <meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=2">
-<meta name="theme-color" content="#222">
-<meta name="generator" content="Hexo 5.0.2">
-  <link rel="apple-touch-icon" sizes="180x180" href="/images/apple-touch-icon-next.png">
-  <link rel="icon" type="image/png" sizes="32x32" href="/images/favicon-32x32-next.png">
-  <link rel="icon" type="image/png" sizes="16x16" href="/images/favicon-16x16-next.png">
-  <link rel="mask-icon" href="/images/logo.svg" color="#222">
-
-<link rel="stylesheet" href="/css/main.css">
-
-
-<link rel="stylesheet" href="/lib/font-awesome/css/all.min.css">
-
-<script id="hexo-configurations">
-    var NexT = window.NexT || {};
-    var CONFIG = {"hostname":"yoursite.com","root":"/","scheme":"Pisces","version":"7.8.0","exturl":false,"sidebar":{"position":"left","display":"post","padding":18,"offset":12,"onmobile":false},"copycode":{"enable":true,"show_result":false,"style":null},"back2top":{"enable":true,"sidebar":false,"scrollpercent":true},"bookmark":{"enable":true,"color":"#222","save":"auto"},"fancybox":false,"mediumzoom":false,"lazyload":false,"pangu":false,"comments":{"style":"tabs","active":true,"storage":true,"lazyload":false,"nav":null},"algolia":{"hits":{"per_page":10},"labels":{"input_placeholder":"Search for Posts","hits_empty":"We didn't find any results for the search: ${query}","hits_stats":"${hits} results found in ${time} ms"}},"localsearch":{"enable":false,"trigger":"auto","top_n_per_article":1,"unescape":false,"preload":false},"motion":{"enable":true,"async":false,"transition":{"post_block":"fadeIn","post_header":"slideDownIn","post_body":"slideDownIn","coll_header":"slideLeftIn","sidebar":"slideUpIn"}}};
-  </script>
-
-  <meta property="og:type" content="website">
-<meta property="og:title" content="疯狂的小相的博客">
+<!DOCTYPE html><html lang="zh-CN" data-theme="light"><head><meta charset="UTF-8"><meta http-equiv="X-UA-Compatible" content="IE=edge"><meta name="viewport" content="width=device-width,initial-scale=1"><title>疯狂的小相の博客 - After all this time? -Always.</title><meta name="author" content="疯狂的小相"><meta name="copyright" content="疯狂的小相"><meta name="format-detection" content="telephone=no"><meta name="theme-color" content="#ffffff"><meta property="og:type" content="website">
+<meta property="og:title" content="疯狂的小相の博客">
 <meta property="og:url" content="http://yoursite.com/index.html">
-<meta property="og:site_name" content="疯狂的小相的博客">
+<meta property="og:site_name" content="疯狂的小相の博客">
 <meta property="og:locale" content="zh_CN">
+<meta property="og:image" content="http://yoursite.com/img/avatar.jpg">
 <meta property="article:author" content="疯狂的小相">
 <meta name="twitter:card" content="summary">
-
-<link rel="canonical" href="http://yoursite.com/">
-
-
-<script id="page-configurations">
-  // https://hexo.io/docs/variables.html
-  CONFIG.page = {
-    sidebar: "",
-    isHome : true,
-    isPost : false,
-    lang   : 'zh-CN'
-  };
-</script>
-
-  <title>疯狂的小相的博客</title>
-  
-
-
-
-
-
-
-  <noscript>
-  <style>
-  .use-motion .brand,
-  .use-motion .menu-item,
-  .sidebar-inner,
-  .use-motion .post-block,
-  .use-motion .pagination,
-  .use-motion .comments,
-  .use-motion .post-header,
-  .use-motion .post-body,
-  .use-motion .collection-header { opacity: initial; }
-
-  .use-motion .site-title,
-  .use-motion .site-subtitle {
-    opacity: initial;
-    top: initial;
+<meta name="twitter:image" content="http://yoursite.com/img/avatar.jpg"><link rel="shortcut icon" href="/img/favicon.png"><link rel="canonical" href="http://yoursite.com/"><link rel="preconnect" href="//cdn.jsdelivr.net"/><link rel="preconnect" href="//busuanzi.ibruce.info"/><link rel="stylesheet" href="/css/index.css"><link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free/css/all.min.css" media="print" onload="this.media='all'"><script>const GLOBAL_CONFIG = { 
+  root: '/',
+  algolia: undefined,
+  localSearch: undefined,
+  translate: undefined,
+  noticeOutdate: undefined,
+  highlight: {"plugin":"highlighjs","highlightCopy":true,"highlightLang":true,"highlightHeightLimit":false},
+  copy: {
+    success: '复制成功',
+    error: '复制错误',
+    noSupport: '浏览器不支持'
+  },
+  relativeDate: {
+    homepage: false,
+    post: false
+  },
+  runtime: '',
+  date_suffix: {
+    just: '刚刚',
+    min: '分钟前',
+    hour: '小时前',
+    day: '天前',
+    month: '个月前'
+  },
+  copyright: undefined,
+  lightbox: 'fancybox',
+  Snackbar: undefined,
+  source: {
+    jQuery: 'https://cdn.jsdelivr.net/npm/jquery@latest/dist/jquery.min.js',
+    justifiedGallery: {
+      js: 'https://cdn.jsdelivr.net/npm/justifiedGallery/dist/js/jquery.justifiedGallery.min.js',
+      css: 'https://cdn.jsdelivr.net/npm/justifiedGallery/dist/css/justifiedGallery.min.css'
+    },
+    fancybox: {
+      js: 'https://cdn.jsdelivr.net/npm/@fancyapps/fancybox@latest/dist/jquery.fancybox.min.js',
+      css: 'https://cdn.jsdelivr.net/npm/@fancyapps/fancybox@latest/dist/jquery.fancybox.min.css'
+    }
+  },
+  isPhotoFigcaption: false,
+  islazyload: false,
+  isanchor: false
+}</script><script id="config-diff">var GLOBAL_CONFIG_SITE = {
+  title: '疯狂的小相の博客',
+  isPost: false,
+  isHome: true,
+  isHighlightShrink: false,
+  isToc: false,
+  postUpdate: '2021-07-08 21:11:52'
+}</script><noscript><style type="text/css">
+  #nav {
+    opacity: 1
+  }
+  .justified-gallery img {
+    opacity: 1
   }
 
-  .use-motion .logo-line-before i { left: initial; }
-  .use-motion .logo-line-after i { right: initial; }
-  </style>
-</noscript>
-
-</head>
-
-<body itemscope itemtype="http://schema.org/WebPage">
-  <div class="container use-motion">
-    <div class="headband"></div>
-
-    <header class="header" itemscope itemtype="http://schema.org/WPHeader">
-      <div class="header-inner"><div class="site-brand-container">
-  <div class="site-nav-toggle">
-    <div class="toggle" aria-label="切换导航栏">
-      <span class="toggle-line toggle-line-first"></span>
-      <span class="toggle-line toggle-line-middle"></span>
-      <span class="toggle-line toggle-line-last"></span>
-    </div>
-  </div>
-
-  <div class="site-meta">
-
-    <a href="/" class="brand" rel="start">
-      <span class="logo-line-before"><i></i></span>
-      <h1 class="site-title">疯狂的小相的博客</h1>
-      <span class="logo-line-after"><i></i></span>
-    </a>
-      <p class="site-subtitle" itemprop="description">After all this time? -Always.</p>
-  </div>
-
-  <div class="site-nav-right">
-    <div class="toggle popup-trigger">
-    </div>
-  </div>
-</div>
-
-
-
-
-<nav class="site-nav">
-  <ul id="menu" class="main-menu menu">
-        <li class="menu-item menu-item-home">
-
-    <a href="/" rel="section"><i class="fa fa-home fa-fw"></i>首页</a>
-
-  </li>
-        <li class="menu-item menu-item-about-me">
-
-    <a href="/about-me/" rel="section"><i class="fa fa-user fa-fw"></i>about-me</a>
-
-  </li>
-        <li class="menu-item menu-item-tags">
-
-    <a href="/tags/" rel="section"><i class="fa fa-tags fa-fw"></i>标签</a>
-
-  </li>
-        <li class="menu-item menu-item-categories">
-
-    <a href="/categories/" rel="section"><i class="fa fa-th fa-fw"></i>分类</a>
-
-  </li>
-        <li class="menu-item menu-item-archives">
-
-    <a href="/archives/" rel="section"><i class="fa fa-archive fa-fw"></i>归档</a>
-
-  </li>
-  </ul>
-</nav>
-
-
-
-
-</div>
-    </header>
-
-    
-  <div class="back-to-top">
-    <i class="fa fa-arrow-up"></i>
-    <span>0%</span>
-  </div>
-  <div class="reading-progress-bar"></div>
-  <a role="button" class="book-mark-link book-mark-link-fixed"></a>
-
-  <a href="https://github.com/xiangliangru" class="github-corner" title="Follow me on GitHub" aria-label="Follow me on GitHub" rel="noopener" target="_blank"><svg width="80" height="80" viewBox="0 0 250 250" aria-hidden="true"><path d="M0,0 L115,115 L130,115 L142,142 L250,250 L250,0 Z"></path><path d="M128.3,109.0 C113.8,99.7 119.0,89.6 119.0,89.6 C122.0,82.7 120.5,78.6 120.5,78.6 C119.2,72.0 123.4,76.3 123.4,76.3 C127.3,80.9 125.5,87.3 125.5,87.3 C122.9,97.6 130.6,101.9 134.4,103.2" fill="currentColor" style="transform-origin: 130px 106px;" class="octo-arm"></path><path d="M115.0,115.0 C114.9,115.1 118.7,116.5 119.8,115.4 L133.7,101.6 C136.9,99.2 139.9,98.4 142.2,98.6 C133.8,88.0 127.5,74.4 143.8,58.0 C148.5,53.4 154.0,51.2 159.7,51.0 C160.3,49.4 163.2,43.6 171.4,40.1 C171.4,40.1 176.1,42.5 178.8,56.2 C183.1,58.6 187.2,61.8 190.9,65.4 C194.5,69.0 197.7,73.2 200.1,77.6 C213.8,80.2 216.3,84.9 216.3,84.9 C212.7,93.1 206.9,96.0 205.4,96.6 C205.1,102.4 203.0,107.8 198.3,112.5 C181.9,128.9 168.3,122.5 157.7,114.1 C157.9,116.9 156.7,120.9 152.7,124.9 L141.0,136.5 C139.8,137.7 141.6,141.9 141.8,141.8 Z" fill="currentColor" class="octo-body"></path></svg></a>
-
-
-    <main class="main">
-      <div class="main-inner">
-        <div class="content-wrap">
-          
-
-          <div class="content index posts-expand">
-            
-      
-  
-  
-  <article itemscope itemtype="http://schema.org/Article" class="post-block" lang="zh-CN">
-    <link itemprop="mainEntityOfPage" href="http://yoursite.com/2021/01/23/ren-gong-zhi-neng-zong-jie/">
-
-    <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
-      <meta itemprop="image" content="/images/avatar.jpg">
-      <meta itemprop="name" content="疯狂的小相">
-      <meta itemprop="description" content="">
-    </span>
-
-    <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
-      <meta itemprop="name" content="疯狂的小相的博客">
-    </span>
-      <header class="post-header">
-        <h2 class="post-title" itemprop="name headline">
-          
-            <a href="/2021/01/23/ren-gong-zhi-neng-zong-jie/" class="post-title-link" itemprop="url">人工智能导论 知识总结</a>
-        </h2>
-
-        <div class="post-meta">
-            <span class="post-meta-item">
-              <span class="post-meta-item-icon">
-                <i class="far fa-calendar"></i>
-              </span>
-              <span class="post-meta-item-text">发表于</span>
-
-              <time title="创建时间：2021-01-23 18:42:25" itemprop="dateCreated datePublished" datetime="2021-01-23T18:42:25+08:00">2021-01-23</time>
-            </span>
-              <span class="post-meta-item">
-                <span class="post-meta-item-icon">
-                  <i class="far fa-calendar-check"></i>
-                </span>
-                <span class="post-meta-item-text">更新于</span>
-                <time title="修改时间：2021-01-24 21:55:44" itemprop="dateModified" datetime="2021-01-24T21:55:44+08:00">2021-01-24</time>
-              </span>
-            <span class="post-meta-item">
-              <span class="post-meta-item-icon">
-                <i class="far fa-folder"></i>
-              </span>
-              <span class="post-meta-item-text">分类于</span>
-                <span itemprop="about" itemscope itemtype="http://schema.org/Thing">
-                  <a href="/categories/%E5%AD%A6%E4%B9%A0/" itemprop="url" rel="index"><span itemprop="name">学习</span></a>
-                </span>
-            </span>
-
-          
-
-        </div>
-      </header>
-
-    
-    
-    
-    <div class="post-body" itemprop="articleBody">
-
-      
-          <p>人智考完好久了，当时整理了好长时间的cheating sheet，也该把这个东西放上来了。<br><img src="/2021/01/23/ren-gong-zhi-neng-zong-jie/p1.png" alt="人智cheating sheet-p1"><br><img src="/2021/01/23/ren-gong-zhi-neng-zong-jie/p2.png" alt="人智cheating sheet-p2"></p>
-<hr>
-<p>人智凉凉。。。算了，反正都考完了，学到知识，开心就好！</p>
-
-      
-    </div>
-
-    
-    
-    
-      <footer class="post-footer">
-        <div class="post-eof"></div>
-      </footer>
-  </article>
-  
-  
-  
-
-      
-  
-  
-  <article itemscope itemtype="http://schema.org/Article" class="post-block" lang="zh-CN">
-    <link itemprop="mainEntityOfPage" href="http://yoursite.com/2020/12/31/2020-nian-zhong-zong-jie/">
-
-    <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
-      <meta itemprop="image" content="/images/avatar.jpg">
-      <meta itemprop="name" content="疯狂的小相">
-      <meta itemprop="description" content="">
-    </span>
-
-    <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
-      <meta itemprop="name" content="疯狂的小相的博客">
-    </span>
-      <header class="post-header">
-        <h2 class="post-title" itemprop="name headline">
-          
-            <a href="/2020/12/31/2020-nian-zhong-zong-jie/" class="post-title-link" itemprop="url">2020年终总结</a>
-        </h2>
-
-        <div class="post-meta">
-            <span class="post-meta-item">
-              <span class="post-meta-item-icon">
-                <i class="far fa-calendar"></i>
-              </span>
-              <span class="post-meta-item-text">发表于</span>
-              
-
-              <time title="创建时间：2020-12-31 10:54:58 / 修改时间：17:58:09" itemprop="dateCreated datePublished" datetime="2020-12-31T10:54:58+08:00">2020-12-31</time>
-            </span>
-            <span class="post-meta-item">
-              <span class="post-meta-item-icon">
-                <i class="far fa-folder"></i>
-              </span>
-              <span class="post-meta-item-text">分类于</span>
-                <span itemprop="about" itemscope itemtype="http://schema.org/Thing">
-                  <a href="/categories/%E7%94%9F%E6%B4%BB/" itemprop="url" rel="index"><span itemprop="name">生活</span></a>
-                </span>
-            </span>
-
-          
-
-        </div>
-      </header>
-
-    
-    
-    
-    <div class="post-body" itemprop="articleBody">
-
-      
-          <!-- 把各科作业交个七七八八，一边自动播放着自控慕课，一边打开编辑器准备着2020的最后一个任务。这应该是自己写年终总结的第4年了。2017年12月31日，我坐在一中的自习教室，在清华暑校发的本子的第一页写下向高考和领军冲刺的决心；2018年12月31日，我顶着期末作业的压力，坐在老馆写下在清华第一学期的迷茫与反思；去年的今天，经历过35学分硬课的“摧残”，好不容易熬到了“轻松”的考试周，自己怀着极端负面的情绪在年终总结里尽情挥洒半年来的紧张与焦虑。但到了同样的12月31号，自己回首这充满变化的2020年，却一时间不知道该从何说起。 -->
-
-<blockquote>
-<p>2020，对于世界来说都是充满变故的一年。相信无数人都在这一年中体会颇深。但除了这些之外，对于我自己，却平常得仿佛并不是自己的生活一般，回味起来，最多的竟是无聊。</p>
-</blockquote>
-<p>这是我第四年写年终总结了。2017年12月31日，我坐在一中的自习教室，在清华暑校发的本子的第一页写下向高考和领军冲刺的决心；2018年12月31日，我顶着期末作业的压力，坐在老馆写下在清华第一学期的迷茫与反思；去年的今天，经历过35学分硬课的“摧残”，好不容易熬到了“轻松”的考试周，自己怀着极端负面的情绪在年终总结里尽情挥洒半年来的紧张与焦虑。但到了同样的12月31号，自己回首这充满变化的2020年，却一时间不知道该从何说起。今天上午九点钟打开编辑器绞尽脑汁想从这诡异的一年中找到某些可以写的东西，想回忆起一年之中自己最大的触动与最深切的情感，结果是到了下午四点，依然没有想出什么自己觉得很有感觉的东西。算了，随便写写，就为了写篇总结，往上凑字数吧。</p>
-<hr>
-<p>这两天在B站、微信推文等等媒体上看到了各种各样的年终总结的东西，有很多都引起了自己的共鸣。2020，在不同的群体下都会产生很多不同而又难忘的回忆。不管是作为国际上各种有趣的事情的吃瓜群众，还是作为园子一年里种种节点的见证者，相信都会作为以后沉甸甸的回忆或者茶余饭后的谈资。在这一年中，不自觉也理所应当地习惯于刷B站知乎，每天关注社会上各种实时的动态。这一年里，给自己印象最深刻的东西也许便是在某件大事或者某个舆论热点下，社会群体的世间百态。</p>
-<hr>
-<p>但在这充满“新鲜感”的一年里，自己也许除了新鲜感并没有什么过多的感觉。无论是春季学期的居家网课，还是返校之后每天奔忙于学业，日子仿佛同质化了一般，只是作为一个装载着日常事务的流水线一点一点把自己该做的工作传到自己面前，而自己就仿佛是工厂里毫无感情的机器，盲目而又机械地做着自己该完成的工作。就这样每天被生活拖拽着前行，日子也变得很不耐过，转眼之间就来到了年终岁尾，这一年竟就这样结束了。</p>
-<p>其实，这一年里本应有很多能够带给自己回忆的事情。美赛、挑战杯、星火和ATOM、电设、众多大作业、冰壶挑战赛，另外还有和朋友的聚餐、同学们在生日与节日给自己的种种惊喜，居家时和高中同学的难得聚首、和家人度过的史上最长的假期。。。但是，有些事情自己并没有拼尽全力，有些事情自己并没有认真看待。也许究其原因，在于自己丧失了对生活的热情与仪式感，在于自己不止从何时开始在生活压力之下建立起来的保护机制。长时间的居家与颓唐让这种保护机制不断加固，以至于自己逐渐失去了对自己心态的了解和对生活的控制力。</p>
-<p>难以饶恕，自己竟然只有将今年所做之事全部遍历才最终弄懂了事情的根源所在。也许真的是这种保护机制过于固化，导致自己都忘了最初想要的是什么了吧。日子还是要自己始终提着一口气，只要这口气不松懈，自己就始终能继续向前。别让2018年的自己看到现在的自己破口大骂！</p>
-<hr>
-<p>说说展望吧。2021，真的是新的一年了。日子不该像2020这样。愿2021年的自己走出这该死的怪圈，找到自己应有的那种状态，拼尽全力，肆意奔跑吧！</p>
-<p>2020，再见！</p>
-<p>未来的自己，会勇往直前！</p>
-
-      
-    </div>
-
-    
-    
-    
-      <footer class="post-footer">
-        <div class="post-eof"></div>
-      </footer>
-  </article>
-  
-  
-  
-
-      
-  
-  
-  <article itemscope itemtype="http://schema.org/Article" class="post-block" lang="zh-CN">
-    <link itemprop="mainEntityOfPage" href="http://yoursite.com/2020/11/11/20-birthday/">
-
-    <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
-      <meta itemprop="image" content="/images/avatar.jpg">
-      <meta itemprop="name" content="疯狂的小相">
-      <meta itemprop="description" content="">
-    </span>
-
-    <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
-      <meta itemprop="name" content="疯狂的小相的博客">
-    </span>
-      <header class="post-header">
-        <h2 class="post-title" itemprop="name headline">
-          
-            <a href="/2020/11/11/20-birthday/" class="post-title-link" itemprop="url">20岁生日快乐！</a>
-        </h2>
-
-        <div class="post-meta">
-            <span class="post-meta-item">
-              <span class="post-meta-item-icon">
-                <i class="far fa-calendar"></i>
-              </span>
-              <span class="post-meta-item-text">发表于</span>
-              
-
-              <time title="创建时间：2020-11-11 20:49:16 / 修改时间：23:59:11" itemprop="dateCreated datePublished" datetime="2020-11-11T20:49:16+08:00">2020-11-11</time>
-            </span>
-            <span class="post-meta-item">
-              <span class="post-meta-item-icon">
-                <i class="far fa-folder"></i>
-              </span>
-              <span class="post-meta-item-text">分类于</span>
-                <span itemprop="about" itemscope itemtype="http://schema.org/Thing">
-                  <a href="/categories/%E7%94%9F%E6%B4%BB/" itemprop="url" rel="index"><span itemprop="name">生活</span></a>
-                </span>
-            </span>
-
-          
-
-        </div>
-      </header>
-
-    
-    
-    
-    <div class="post-body" itemprop="articleBody">
-
-      
-          <p>距离自己的20岁生日还剩一个小时。刚刚拿到今年的男生节礼物玩了一会，吃点东西，该想想写点什么了。</p>
-<p>原计划花充足的时间好好写一个小作文，总结自己人生前20年的一切，然而大三的课业确实不允许自己写一篇流水账了。算了，随便说说吧，想到什么说什么。</p>
-<h2 id="努力与成长"><a href="#努力与成长" class="headerlink" title="努力与成长"></a>努力与成长</h2><p>也许从20年的角度来看，自己最值得骄傲的事情，恐怕也是此生颇值骄傲的事情，便是能够来到清华了吧。生在三线小城市，但却能一步一个脚印克服教育资源的不足，不断克服自身缺点，从四科省一到各个招生考试的极佳发挥，来到清华之后又能凭借自己的努力成功转系，学习、科研都还算可以，尽管课业繁重也能过得相对自在。这些都足够让过去自己遇见的其他人羡慕不已了。最重要的是，自己在小初高时一步一个脚印，通过高考、竞赛收获到的经历与成长，来到清华之后收获的分析事物的方法、解决问题的能力，经历过的所有欢乐、喜悦、痛苦、绝望，都让我不断成长成现在的自己。尽管大概率没有人会看到这篇博客（笑），还是要对自己经历过的所有人、所有事说一声感谢！</p>
-<p>也许在清华让我认识到了自己的极限，让我看到了自己的人生如果没有目标会变成什么样子。也许20岁的自己不再会强迫自己做得怎样淋漓尽致，而是开始学会接受不完美的自己，真正认清自己的模样。</p>
-<h2 id="遗憾与回忆"><a href="#遗憾与回忆" class="headerlink" title="遗憾与回忆"></a>遗憾与回忆</h2><p>在20年的人生里，遗憾是必然存在的，兴许每一天都会有新的遗憾产生。但是如今站在时间的河畔，回首，仍记得的除了几个丢人名场面和今天的两个遗憾外，剩下的都不抱有遗憾的感觉了。正像上面说过的一样，这些都让我成长为现在的自己，没有这些遗憾，我便不是这般模样。也许多年之后，自己也会忘记在今天看来非常重大的两个遗憾吧！</p>
-<p>至于说回忆，我的想法一直都没有变过：我希望当我老了，走不动了的时候，还能够通过各种方式，回顾我度过的一切，不管是欢乐、悲伤，都是我作为人来过这世界的证明。</p>
-<h2 id="亲情、友情、爱情"><a href="#亲情、友情、爱情" class="headerlink" title="亲情、友情、爱情"></a>亲情、友情、爱情</h2><p>此生有幸，时至今日自己的双亲及祖父祖母都身体健康。从去年爸爸出事以来自己便开始发觉自己的亲人真的都在变老，速度让人害怕，自己的角色也不单纯是个小孩子了，也要逐步担起自己的责任了。我记得妈妈一次当笑话问我：之后自己挣钱了，会不会丢给他们一大笔钱然后再也不管他们。自己当时说的是：只要自己没有被生活打磨到失去一切自我，就绝不会。这个答案，此生不会改变。这里仅愿：时光慢些吧，虽然离别不可避免，但我不想它来得太过突然。请给我时间，以尽人伦。</p>
-<p>此生有幸，如今我还有好多能够相互说话的人，能够在我得意之时真心相贺，能在我跌入谷底时尽全力将我拉上正轨。飞哥、月神、小杨、牟哥、qay，还有很多。。。惟愿此生，友谊长存！</p>
-<p>爱情嘛。。。20岁前桃花未到，希望20岁后很快，我能找到自己心仪的人！愿得一心人，白首不相离！相信自己足够优秀！</p>
-<h2 id="展望"><a href="#展望" class="headerlink" title="展望"></a>展望</h2><p>愿自己永远纯真善良！即使被打击过千次百次，也要始终用如同第一次的热忱与纯真面对他人，面对自己。</p>
-<p>愿自己永远怀揣梦想！永远保持自己的棱角，即使生活加给我难以承受的重量。</p>
-<p>愿自己永远热泪盈眶！珍藏每一份感动，始终心向阳光！</p>
-
-      
-    </div>
-
-    
-    
-    
-      <footer class="post-footer">
-        <div class="post-eof"></div>
-      </footer>
-  </article>
-  
-  
-  
-
-      
-  
-  
-  <article itemscope itemtype="http://schema.org/Article" class="post-block" lang="zh-CN">
-    <link itemprop="mainEntityOfPage" href="http://yoursite.com/2020/09/02/tensorflow-duo-xian-cheng/">
-
-    <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
-      <meta itemprop="image" content="/images/avatar.jpg">
-      <meta itemprop="name" content="疯狂的小相">
-      <meta itemprop="description" content="">
-    </span>
-
-    <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
-      <meta itemprop="name" content="疯狂的小相的博客">
-    </span>
-      <header class="post-header">
-        <h2 class="post-title" itemprop="name headline">
-          
-            <a href="/2020/09/02/tensorflow-duo-xian-cheng/" class="post-title-link" itemprop="url">TensorFlow多线程</a>
-        </h2>
-
-        <div class="post-meta">
-            <span class="post-meta-item">
-              <span class="post-meta-item-icon">
-                <i class="far fa-calendar"></i>
-              </span>
-              <span class="post-meta-item-text">发表于</span>
-
-              <time title="创建时间：2020-09-02 20:22:12" itemprop="dateCreated datePublished" datetime="2020-09-02T20:22:12+08:00">2020-09-02</time>
-            </span>
-              <span class="post-meta-item">
-                <span class="post-meta-item-icon">
-                  <i class="far fa-calendar-check"></i>
-                </span>
-                <span class="post-meta-item-text">更新于</span>
-                <time title="修改时间：2020-09-03 10:51:22" itemprop="dateModified" datetime="2020-09-03T10:51:22+08:00">2020-09-03</time>
-              </span>
-            <span class="post-meta-item">
-              <span class="post-meta-item-icon">
-                <i class="far fa-folder"></i>
-              </span>
-              <span class="post-meta-item-text">分类于</span>
-                <span itemprop="about" itemscope itemtype="http://schema.org/Thing">
-                  <a href="/categories/%E5%AD%A6%E4%B9%A0/" itemprop="url" rel="index"><span itemprop="name">学习</span></a>
-                </span>
-            </span>
-
-          
-
-        </div>
-      </header>
-
-    
-    
-    
-    <div class="post-body" itemprop="articleBody">
-
-      
-          <hr>
-<p><em>欢欢喜喜地觉得多线程可以处理自己的多摄像头问题，但是看完多线程的东西才发现和自己想要的东西不太一样，但是至少是都看过学过了，虽然目前没啥用，先记录下来吧。</em></p>
-<p>参考博客：</p>
-<ul>
-<li><a target="_blank" rel="noopener" href="https://www.cnblogs.com/wj-1314/p/11339707.html">https://www.cnblogs.com/wj-1314/p/11339707.html</a></li>
-<li><a target="_blank" rel="noopener" href="https://www.jianshu.com/p/d063804fb272">https://www.jianshu.com/p/d063804fb272</a></li>
-</ul>
-<hr>
-<h2 id="Python多线程"><a href="#Python多线程" class="headerlink" title="Python多线程"></a>Python多线程</h2><p>多线程的内容内涵本身就不再赘述了，本质就是多核并行。这里仅仅介绍Python多线程的语法：</p>
-<figure class="highlight python"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">from</span> threading <span class="keyword">import</span> Thread</span><br><span class="line"><span class="function"><span class="keyword">def</span> <span class="title">ThreadFunc</span>(<span class="params">args</span>):</span></span><br><span class="line">    <span class="keyword">pass</span></span><br><span class="line"></span><br><span class="line">t = Thread(target=ThreadFunc, args=args)</span><br><span class="line">t.start()</span><br></pre></td></tr></table></figure>
-
-<h2 id="TensorFlow多线程机制"><a href="#TensorFlow多线程机制" class="headerlink" title="TensorFlow多线程机制"></a>TensorFlow多线程机制</h2><p>TensorFlow对多线程的支持貌似是通过队列方法实现的。队列这种数据结构依然不赘述。这里仅介绍TensorFlow中对队列的应用方法。<br>一般而言，TensorFlow由于计算中心在CPU/GPU和内存，而数据存储大多却在磁盘中。如果每次都是先读数据后计算的话会花费大量的无用时间。因此有一种方式是开启多个线程，一个线程专门把数据塞入一个队列中，而CPU/GPU则直接从队列中拿取训练数据。</p>
-<p>在TensorFlow中利用队列方式实现多线程需要三个概念：Queue、QueueRunner和Coordinator。</p>
-<h3 id="Queue"><a href="#Queue" class="headerlink" title="Queue"></a>Queue</h3><p>根据实现的方式不同，分成具体的几种类型，例如：</p>
-<ul>
-<li>tf.FIFOQueue 按入列顺序出列的队列</li>
-<li>tf.RandomShuffleQueue 随机顺序出列的队列</li>
-<li>tf.PaddingFIFOQueue 以固定长度批量出列的队列</li>
-<li>tf.PriorityQueue 带优先级出列的队列</li>
-<li>……</li>
-</ul>
-<p>创建队列的方式：</p>
-<figure class="highlight python"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">tf.FIFOQueue(capacity, dtypes, shapes=<span class="literal">None</span>, names=<span class="literal">None</span> ...)</span><br></pre></td></tr></table></figure>
-
-<p>Queue主要包含 <strong>入列（enqueue）</strong> 和 <strong>出列（dequeue）</strong> 两个操作。enqueue操作返回计算图中的一个Operation节点，dequeue操作返回一个Tensor值。Tensor在创建时同样只是一个定义（或称为“声明”），需要放在Session中运行才能获得真正的数值。</p>
-<h3 id="QueueRunner"><a href="#QueueRunner" class="headerlink" title="QueueRunner"></a>QueueRunner</h3><p>用于管理读写线程，主要用于启动多个线程来操作同一个队列。<br>用法：</p>
-<figure class="highlight python"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">import</span> tensorflow <span class="keyword">as</span> tf  </span><br><span class="line"><span class="keyword">import</span> sys  </span><br><span class="line">q = tf.FIFOQueue(<span class="number">10</span>, <span class="string">&quot;float&quot;</span>)  </span><br><span class="line">counter = tf.Variable(<span class="number">0.0</span>)  <span class="comment">#计数器</span></span><br><span class="line"><span class="comment"># 给计数器加一</span></span><br><span class="line">increment_op = tf.assign_add(counter, <span class="number">1.0</span>)</span><br><span class="line"><span class="comment"># 将计数器加入队列</span></span><br><span class="line">enqueue_op = q.enqueue(counter)</span><br><span class="line"></span><br><span class="line"><span class="comment"># 创建QueueRunner</span></span><br><span class="line"><span class="comment"># 用多个线程向队列添加数据</span></span><br><span class="line"><span class="comment"># 这里实际创建了4个线程，两个增加计数，两个执行入队</span></span><br><span class="line">qr = tf.train.QueueRunner(q, enqueue_ops=[increment_op, enqueue_op] * <span class="number">2</span>)</span><br><span class="line"></span><br><span class="line"><span class="comment"># 主线程</span></span><br><span class="line">sess = tf.InteractiveSession()</span><br><span class="line">tf.global_variables_initializer().run()</span><br><span class="line"><span class="comment"># 启动入队线程</span></span><br><span class="line">qr.create_threads(sess, start=<span class="literal">True</span>)</span><br><span class="line"><span class="keyword">for</span> i <span class="keyword">in</span> range(<span class="number">20</span>):</span><br><span class="line">    <span class="keyword">print</span> (sess.run(q.dequeue()))</span><br></pre></td></tr></table></figure>
-
-<h3 id="Coordinator"><a href="#Coordinator" class="headerlink" title="Coordinator"></a>Coordinator</h3><p>Coordinator是个用来保存线程组运行状态的协调器对象，它和TensorFlow的Queue没有必然关系，是可以单独和Python线程使用的。</p>
-<p>tf.train.Coordinator主要有3个函数：should_stop(), request_stop(), join()。should_stop()函数返回一个bool值，用于判断是否所有线程都要停止。当有一个线程内部调用request_stop()函数时，Coordinator的should_stop()被置为True，若在每个线程都进行该值的判断，则可进行多个线程的同时退出。例：</p>
-<figure class="highlight python"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br><span class="line">22</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">import</span> tensorflow <span class="keyword">as</span> tf</span><br><span class="line"><span class="keyword">import</span> threading, time</span><br><span class="line"></span><br><span class="line"><span class="comment"># 子线程函数</span></span><br><span class="line"><span class="function"><span class="keyword">def</span> <span class="title">loop</span>(<span class="params">coord, id</span>):</span></span><br><span class="line">    t = <span class="number">0</span></span><br><span class="line">    <span class="keyword">while</span> <span class="keyword">not</span> coord.should_stop():</span><br><span class="line">        print(id)</span><br><span class="line">        time.sleep(<span class="number">1</span>)</span><br><span class="line">        t += <span class="number">1</span></span><br><span class="line">        <span class="comment"># 只有1号线程调用request_stop方法</span></span><br><span class="line">        <span class="keyword">if</span> (t &gt;= <span class="number">2</span> <span class="keyword">and</span> id == <span class="number">1</span>):</span><br><span class="line">            coord.request_stop()</span><br><span class="line"></span><br><span class="line"><span class="comment"># 主线程</span></span><br><span class="line">coord = tf.train.Coordinator()</span><br><span class="line"><span class="comment"># 使用Python API创建10个线程</span></span><br><span class="line">threads = [threading.Thread(target=loop, args=(coord, i)) <span class="keyword">for</span> i <span class="keyword">in</span> range(<span class="number">10</span>)]</span><br><span class="line"></span><br><span class="line"><span class="comment"># 启动所有线程，并等待线程结束</span></span><br><span class="line"><span class="keyword">for</span> t <span class="keyword">in</span> threads: t.start()</span><br><span class="line">coord.join(threads)</span><br></pre></td></tr></table></figure>
-
-<h3 id="TensorFlow多线程用法"><a href="#TensorFlow多线程用法" class="headerlink" title="TensorFlow多线程用法"></a>TensorFlow多线程用法</h3><p>话不多说，直接上代码：</p>
-<figure class="highlight python"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br><span class="line">22</span><br><span class="line">23</span><br><span class="line">24</span><br><span class="line">25</span><br><span class="line">26</span><br><span class="line">27</span><br><span class="line">28</span><br><span class="line">29</span><br><span class="line">30</span><br><span class="line">31</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">import</span> tensorflow <span class="keyword">as</span> tf</span><br><span class="line"></span><br><span class="line"><span class="comment"># 1000个4维输入向量，每个数取值为1-10之间的随机数</span></span><br><span class="line">data = <span class="number">10</span> * np.random.randn(<span class="number">1000</span>, <span class="number">4</span>) + <span class="number">1</span></span><br><span class="line"><span class="comment"># 1000个随机的目标值，值为0或1</span></span><br><span class="line">target = np.random.randint(<span class="number">0</span>, <span class="number">2</span>, size=<span class="number">1000</span>)</span><br><span class="line"></span><br><span class="line"><span class="comment"># 创建Queue，队列中每一项包含一个输入数据和相应的目标值</span></span><br><span class="line">queue = tf.FIFOQueue(capacity=<span class="number">50</span>, dtypes=[tf.float32, tf.int32], shapes=[[<span class="number">4</span>], []])</span><br><span class="line"></span><br><span class="line"><span class="comment"># 批量入列数据（这是一个Operation）</span></span><br><span class="line">enqueue_op = queue.enqueue_many([data, target])</span><br><span class="line"><span class="comment"># 出列数据（这是一个Tensor定义）</span></span><br><span class="line">data_sample, label_sample = queue.dequeue()</span><br><span class="line"></span><br><span class="line"><span class="comment"># 创建包含4个线程的QueueRunner</span></span><br><span class="line">qr = tf.train.QueueRunner(queue, [enqueue_op] * <span class="number">4</span>)</span><br><span class="line"></span><br><span class="line"><span class="keyword">with</span> tf.Session() <span class="keyword">as</span> sess:</span><br><span class="line">    <span class="comment"># 创建Coordinator</span></span><br><span class="line">    coord = tf.train.Coordinator()</span><br><span class="line">    <span class="comment"># 启动QueueRunner管理的线程</span></span><br><span class="line">    enqueue_threads = qr.create_threads(sess, coord=coord, start=<span class="literal">True</span>)</span><br><span class="line">    <span class="comment"># 主线程，消费100个数据</span></span><br><span class="line">    <span class="keyword">for</span> step <span class="keyword">in</span> range(<span class="number">100</span>):</span><br><span class="line">        <span class="keyword">if</span> coord.should_stop():</span><br><span class="line">            <span class="keyword">break</span></span><br><span class="line">        data_batch, label_batch = sess.run([data_sample, label_sample])</span><br><span class="line">    <span class="comment"># 主线程计算完成，停止所有采集数据的进程</span></span><br><span class="line">    coord.request_stop()</span><br><span class="line">    coord.join(enqueue_threads)</span><br></pre></td></tr></table></figure>
-      
-    </div>
-
-    
-    
-    
-      <footer class="post-footer">
-        <div class="post-eof"></div>
-      </footer>
-  </article>
-  
-  
-  
-
-      
-  
-  
-  <article itemscope itemtype="http://schema.org/Article" class="post-block" lang="zh-CN">
-    <link itemprop="mainEntityOfPage" href="http://yoursite.com/2020/08/27/my-first-blog/">
-
-    <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
-      <meta itemprop="image" content="/images/avatar.jpg">
-      <meta itemprop="name" content="疯狂的小相">
-      <meta itemprop="description" content="">
-    </span>
-
-    <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
-      <meta itemprop="name" content="疯狂的小相的博客">
-    </span>
-      <header class="post-header">
-        <h2 class="post-title" itemprop="name headline">
-          
-            <a href="/2020/08/27/my-first-blog/" class="post-title-link" itemprop="url">我的第一篇博客</a>
-        </h2>
-
-        <div class="post-meta">
-            <span class="post-meta-item">
-              <span class="post-meta-item-icon">
-                <i class="far fa-calendar"></i>
-              </span>
-              <span class="post-meta-item-text">发表于</span>
-              
-
-              <time title="创建时间：2020-08-27 16:10:07 / 修改时间：16:33:53" itemprop="dateCreated datePublished" datetime="2020-08-27T16:10:07+08:00">2020-08-27</time>
-            </span>
-
-          
-
-        </div>
-      </header>
-
-    
-    
-    
-    <div class="post-body" itemprop="articleBody">
-
-      
-          <p>&ensp;&ensp;&ensp;&ensp;搭博客搭得断断续续，前后耗时颇长。希望之后能够认真写一些东西，勿使自己的blog荒废才好。<br>&ensp;&ensp;&ensp;&ensp;<font face="Times" newroman><br><em>Besides:</em><br></font>  </p>
-<p>&ensp;&ensp;&ensp;&ensp;<font face="Italic"><br><strong>-After all this time? Always.</strong><br></font>  </p>
-
-      
-    </div>
-
-    
-    
-    
-      <footer class="post-footer">
-        <div class="post-eof"></div>
-      </footer>
-  </article>
-  
-  
-  
-
-
-  
-
-
-
-          </div>
-          
-  <div id="gitalk-container"></div>
-
-<script>
-  window.addEventListener('tabs:register', () => {
-    let { activeClass } = CONFIG.comments;
-    if (CONFIG.comments.storage) {
-      activeClass = localStorage.getItem('comments_active') || activeClass;
-    }
-    if (activeClass) {
-      let activeTab = document.querySelector(`a[href="#comment-${activeClass}"]`);
-      if (activeTab) {
-        activeTab.click();
+  #recent-posts time,
+  #post-meta time {
+    display: inline !important
+  }
+</style></noscript><script>(win=>{
+    win.saveToLocal = {
+      set: function setWithExpiry(key, value, ttl) {
+        if (ttl === 0) return
+        const now = new Date()
+        const expiryDay = ttl * 86400000
+        const item = {
+          value: value,
+          expiry: now.getTime() + expiryDay,
+        }
+        localStorage.setItem(key, JSON.stringify(item))
+      },
+
+      get: function getWithExpiry(key) {
+        const itemStr = localStorage.getItem(key)
+
+        if (!itemStr) {
+          return undefined
+        }
+        const item = JSON.parse(itemStr)
+        const now = new Date()
+
+        if (now.getTime() > item.expiry) {
+          localStorage.removeItem(key)
+          return undefined
+        }
+        return item.value
       }
     }
-  });
-  if (CONFIG.comments.storage) {
-    window.addEventListener('tabs:click', event => {
-      if (!event.target.matches('.tabs-comment .tab-content .tab-pane')) return;
-      let commentClass = event.target.classList[1];
-      localStorage.setItem('comments_active', commentClass);
-    });
-  }
-</script>
-
-        </div>
-          
   
-  <div class="toggle sidebar-toggle">
-    <span class="toggle-line toggle-line-first"></span>
-    <span class="toggle-line toggle-line-middle"></span>
-    <span class="toggle-line toggle-line-last"></span>
-  </div>
-
-  <aside class="sidebar">
-    <div class="sidebar-inner">
-
-      <ul class="sidebar-nav motion-element">
-        <li class="sidebar-nav-toc">
-          文章目录
-        </li>
-        <li class="sidebar-nav-overview">
-          站点概览
-        </li>
-      </ul>
-
-      <!--noindex-->
-      <div class="post-toc-wrap sidebar-panel">
-      </div>
-      <!--/noindex-->
-
-      <div class="site-overview-wrap sidebar-panel">
-        <div class="site-author motion-element" itemprop="author" itemscope itemtype="http://schema.org/Person">
-    <img class="site-author-image" itemprop="image" alt="疯狂的小相"
-      src="/images/avatar.jpg">
-  <p class="site-author-name" itemprop="name">疯狂的小相</p>
-  <div class="site-description" itemprop="description"></div>
-</div>
-<div class="site-state-wrap motion-element">
-  <nav class="site-state">
-      <div class="site-state-item site-state-posts">
-          <a href="/archives/">
+    win.getScript = url => new Promise((resolve, reject) => {
+      const script = document.createElement('script')
+      script.src = url
+      script.async = true
+      script.onerror = reject
+      script.onload = script.onreadystatechange = function() {
+        const loadState = this.readyState
+        if (loadState && loadState !== 'loaded' && loadState !== 'complete') return
+        script.onload = script.onreadystatechange = null
+        resolve()
+      }
+      document.head.appendChild(script)
+    })
+  
+      win.activateDarkMode = function () {
+        document.documentElement.setAttribute('data-theme', 'dark')
+        if (document.querySelector('meta[name="theme-color"]') !== null) {
+          document.querySelector('meta[name="theme-color"]').setAttribute('content', '#0d0d0d')
+        }
+      }
+      win.activateLightMode = function () {
+        document.documentElement.setAttribute('data-theme', 'light')
+        if (document.querySelector('meta[name="theme-color"]') !== null) {
+          document.querySelector('meta[name="theme-color"]').setAttribute('content', '#ffffff')
+        }
+      }
+      const t = saveToLocal.get('theme')
+    
+          if (t === 'dark') activateDarkMode()
+          else if (t === 'light') activateLightMode()
         
-          <span class="site-state-item-count">5</span>
-          <span class="site-state-item-name">日志</span>
-        </a>
-      </div>
-      <div class="site-state-item site-state-categories">
-            <a href="/categories/">
-          
-        <span class="site-state-item-count">2</span>
-        <span class="site-state-item-name">分类</span></a>
-      </div>
-      <div class="site-state-item site-state-tags">
-            <a href="/tags/">
-          
-        <span class="site-state-item-count">5</span>
-        <span class="site-state-item-name">标签</span></a>
-      </div>
-  </nav>
-</div>
-  <div class="sidebar-button motion-element"><i class="fa fa-comment"></i>
-    Chat
-  </a>
-  </div>
+      const asideStatus = saveToLocal.get('aside-status')
+      if (asideStatus !== undefined) {
+        if (asideStatus === 'hide') {
+          document.documentElement.classList.add('hide-aside')
+        } else {
+          document.documentElement.classList.remove('hide-aside')
+        }
+      }
+    })(window)</script><meta name="generator" content="Hexo 5.0.2"></head><body><div id="web_bg"></div><div id="sidebar"><div id="menu-mask"></div><div id="sidebar-menus"><div class="author-avatar"><img class="avatar-img" src="/img/avatar.jpg" onerror="onerror=null;src='/img/friend_404.gif'" alt="avatar"/></div><div class="site-data"><div class="data-item is-center"><div class="data-item-link"><a href="/archives/"><div class="headline">文章</div><div class="length-num">6</div></a></div></div><div class="data-item is-center"><div class="data-item-link"><a href="/tags/"><div class="headline">标签</div><div class="length-num">5</div></a></div></div><div class="data-item is-center"><div class="data-item-link"><a href="/categories/"><div class="headline">分类</div><div class="length-num">2</div></a></div></div></div><hr/><div class="menus_items"><div class="menus_item"><a class="site-page" href="/"><i class="fa-fw fas fa-home"></i><span> Home</span></a></div><div class="menus_item"><a class="site-page" href="/archives/"><i class="fa-fw fas fa-archive"></i><span> Archives</span></a></div><div class="menus_item"><a class="site-page" href="/tags/"><i class="fa-fw fas fa-tags"></i><span> Tags</span></a></div><div class="menus_item"><a class="site-page" href="/categories/"><i class="fa-fw fas fa-folder-open"></i><span> Categories</span></a></div></div></div></div><div class="page" id="body-wrap"><header class="full_page" id="page-header" style="background-image: url('/img/background.jpg')"><nav id="nav"><span id="blog_name"><a id="site-name" href="/">疯狂的小相の博客</a></span><div id="menus"><div class="menus_items"><div class="menus_item"><a class="site-page" href="/"><i class="fa-fw fas fa-home"></i><span> Home</span></a></div><div class="menus_item"><a class="site-page" href="/archives/"><i class="fa-fw fas fa-archive"></i><span> Archives</span></a></div><div class="menus_item"><a class="site-page" href="/tags/"><i class="fa-fw fas fa-tags"></i><span> Tags</span></a></div><div class="menus_item"><a class="site-page" href="/categories/"><i class="fa-fw fas fa-folder-open"></i><span> Categories</span></a></div></div><div id="toggle-menu"><a class="site-page"><i class="fas fa-bars fa-fw"></i></a></div></div></nav><div id="site-info"><h1 id="site-title">疯狂的小相の博客</h1><div id="site_social_icons"><a class="social-icon" href="https://github.com/xiangliangru" target="_blank" title="Github"><i class="fab fa-github"></i></a></div></div><div id="scroll-down"><i class="fas fa-angle-down scroll-down-effects"></i></div></header><main class="layout" id="content-inner"><div class="recent-posts" id="recent-posts"><div class="recent-post-item"><div class="post_cover left_radius"><a href="/2021/07/02/when-we-talk-about-tsinghua/" title="当我们谈到“清华”时，我们在说什么？">     <img class="post_bg" src="/img/background.jpg" onerror="this.onerror=null;this.src='/img/404.jpg'" alt="当我们谈到“清华”时，我们在说什么？"></a></div><div class="recent-post-info"><a class="article-title" href="/2021/07/02/when-we-talk-about-tsinghua/" title="当我们谈到“清华”时，我们在说什么？">当我们谈到“清华”时，我们在说什么？</a><div class="article-meta-wrap"><span class="post-meta-date"><i class="far fa-calendar-alt"></i><span class="article-meta-label">发表于</span><time datetime="2021-07-01T16:15:01.000Z" title="发表于 2021-07-02 00:15:01">2021-07-02</time></span><span class="article-meta"><span class="article-meta__separator">|</span><i class="fas fa-inbox"></i><a class="article-meta__categories" href="/categories/%E7%94%9F%E6%B4%BB/">生活</a></span></div><div class="content">最近的清华不太平。
+2021年美院毕业设计，“眯眯眼”时装秀被骂上了热搜，人们认为清华的此次时装秀选择的模特全部为西方人对中国固有看法的“眯眯眼”，表现出极强的崇洋媚外和文化不自信的心理。巧合的是，那几天的河南卫视水下舞令人拍案叫绝。两相对比仿佛更加体现出了清华美院此次的“败局”。
+几天前，零字班军训的“激光笔”事件也引人关注，引发激烈讨论和舆论攻势。在特殊的时期，校方也许出于某种原因开始某种管控，结果这更激起了人们尤其是学生群体的愤怒。
+也许是以这几件事情为诱因，也许是近几年来清华的一些相对负面的事情藉由媒体传播向广大群众，更也许是最近两年国内外更深层次的形势变化导致的思潮倾向变化，也许是看不见的深层有一股资本驱动，在各大媒体平台上逐渐出现了一股反对清华的舆论风潮，大有想将清华拆解碾碎之意。尽管这一波恶意令人出乎意料且无法理解，但不可否认舆论风向令人惧怕，众口铄金，让人们不得不正视这一波舆论狂潮，尝试将人们狂热而不理智的情绪降温。
+这次我不想对清华近些事情进行评论，不仅包括上面所提到的美院“眯眯眼”事件、激光笔事件，也包括舆论上广为流传的“出国率90%”、为美帝造导弹对付中国人、华为 ...</div></div></div><div class="recent-post-item"><div class="recent-post-info"><a class="article-title" href="/2021/01/23/ren-gong-zhi-neng-zong-jie/" title="人工智能导论 知识总结">人工智能导论 知识总结</a><div class="article-meta-wrap"><span class="post-meta-date"><i class="far fa-calendar-alt"></i><span class="article-meta-label">发表于</span><time datetime="2021-01-23T10:42:25.000Z" title="发表于 2021-01-23 18:42:25">2021-01-23</time></span><span class="article-meta"><span class="article-meta__separator">|</span><i class="fas fa-inbox"></i><a class="article-meta__categories" href="/categories/%E5%AD%A6%E4%B9%A0/">学习</a></span></div><div class="content">人智考完好久了，当时整理了好长时间的cheating sheet，也该把这个东西放上来了。
+
+人智凉凉。。。算了，反正都考完了，学到知识，开心就好！
+</div></div></div><div class="recent-post-item"><div class="recent-post-info"><a class="article-title" href="/2020/12/31/2020-nian-zhong-zong-jie/" title="2020年终总结">2020年终总结</a><div class="article-meta-wrap"><span class="post-meta-date"><i class="far fa-calendar-alt"></i><span class="article-meta-label">发表于</span><time datetime="2020-12-31T02:54:58.000Z" title="发表于 2020-12-31 10:54:58">2020-12-31</time></span><span class="article-meta"><span class="article-meta__separator">|</span><i class="fas fa-inbox"></i><a class="article-meta__categories" href="/categories/%E7%94%9F%E6%B4%BB/">生活</a></span></div><div class="content">
 
 
+2020，对于世界来说都是充满变故的一年。相信无数人都在这一年中体会颇深。但除了这些之外，对于我自己，却平常得仿佛并不是自己的生活一般，回味起来，最多的竟是无聊。
 
-      </div>
+这是我第四年写年终总结了。2017年12月31日，我坐在一中的自习教室，在清华暑校发的本子的第一页写下向高考和领军冲刺的决心；2018年12月31日，我顶着期末作业的压力，坐在老馆写下在清华第一学期的迷茫与反思；去年的今天，经历过35学分硬课的“摧残”，好不容易熬到了“轻松”的考试周，自己怀着极端负面的情绪在年终总结里尽情挥洒半年来的紧张与焦虑。但到了同样的12月31号，自己回首这充满变化的2020年，却一时间不知道该从何说起。今天上午九点钟打开编辑器绞尽脑汁想从这诡异的一年中找到某些可以写的东西，想回忆起一年之中自己最大的触动与最深切的情感，结果是到了下午四点，依然没有想出什么自己觉得很有感觉的东西。算了，随便写写，就为了写篇总结，往上凑字数吧。
 
-    </div>
-  </aside>
-  <div id="sidebar-dimmer"></div>
+这两天在B站、微信推文等等媒体上看到了各种各样的年终总结的东西，有很多都引起了自己的共鸣。2020，在不同的群体下都会产生很多不同而又难忘的回忆。不管是作为国际上各种有 ...</div></div></div><div class="recent-post-item"><div class="recent-post-info"><a class="article-title" href="/2020/11/11/20-birthday/" title="20岁生日快乐！">20岁生日快乐！</a><div class="article-meta-wrap"><span class="post-meta-date"><i class="far fa-calendar-alt"></i><span class="article-meta-label">发表于</span><time datetime="2020-11-11T12:49:16.000Z" title="发表于 2020-11-11 20:49:16">2020-11-11</time></span><span class="article-meta"><span class="article-meta__separator">|</span><i class="fas fa-inbox"></i><a class="article-meta__categories" href="/categories/%E7%94%9F%E6%B4%BB/">生活</a></span></div><div class="content">距离自己的20岁生日还剩一个小时。刚刚拿到今年的男生节礼物玩了一会，吃点东西，该想想写点什么了。
+原计划花充足的时间好好写一个小作文，总结自己人生前20年的一切，然而大三的课业确实不允许自己写一篇流水账了。算了，随便说说吧，想到什么说什么。
+努力与成长也许从20年的角度来看，自己最值得骄傲的事情，恐怕也是此生颇值骄傲的事情，便是能够来到清华了吧。生在三线小城市，但却能一步一个脚印克服教育资源的不足，不断克服自身缺点，从四科省一到各个招生考试的极佳发挥，来到清华之后又能凭借自己的努力成功转系，学习、科研都还算可以，尽管课业繁重也能过得相对自在。这些都足够让过去自己遇见的其他人羡慕不已了。最重要的是，自己在小初高时一步一个脚印，通过高考、竞赛收获到的经历与成长，来到清华之后收获的分析事物的方法、解决问题的能力，经历过的所有欢乐、喜悦、痛苦、绝望，都让我不断成长成现在的自己。尽管大概率没有人会看到这篇博客（笑），还是要对自己经历过的所有人、所有事说一声感谢！
+也许在清华让我认识到了自己的极限，让我看到了自己的人生如果没有目标会变成什么样子。也许20岁的自己不再会强迫自己做得怎样淋漓尽致，而是 ...</div></div></div><div class="recent-post-item"><div class="recent-post-info"><a class="article-title" href="/2020/09/02/tensorflow-duo-xian-cheng/" title="TensorFlow多线程">TensorFlow多线程</a><div class="article-meta-wrap"><span class="post-meta-date"><i class="far fa-calendar-alt"></i><span class="article-meta-label">发表于</span><time datetime="2020-09-02T12:22:12.000Z" title="发表于 2020-09-02 20:22:12">2020-09-02</time></span><span class="article-meta"><span class="article-meta__separator">|</span><i class="fas fa-inbox"></i><a class="article-meta__categories" href="/categories/%E5%AD%A6%E4%B9%A0/">学习</a></span></div><div class="content">
+欢欢喜喜地觉得多线程可以处理自己的多摄像头问题，但是看完多线程的东西才发现和自己想要的东西不太一样，但是至少是都看过学过了，虽然目前没啥用，先记录下来吧。
+参考博客：
 
-
-      </div>
-    </main>
-
-    <footer class="footer">
-      <div class="footer-inner">
-        
-
-        
-
-<div class="copyright">
-  
-  &copy; 
-  <span itemprop="copyrightYear">2021</span>
-  <span class="with-love">
-    <i class="fa fa-heart"></i>
-  </span>
-  <span class="author" itemprop="copyrightHolder">疯狂的小相</span>
-</div>
-  <div class="powered-by">由 <a href="https://hexo.io/" class="theme-link" rel="noopener" target="_blank">Hexo</a> & <a href="https://pisces.theme-next.org/" class="theme-link" rel="noopener" target="_blank">NexT.Pisces</a> 强力驱动
-  </div>
-
-        
-<div class="busuanzi-count">
-  <script async src="https://busuanzi.ibruce.info/busuanzi/2.3/busuanzi.pure.mini.js"></script>
-    <span class="post-meta-item" id="busuanzi_container_site_uv" style="display: none;">
-      <span class="post-meta-item-icon">
-        <i class="fa fa-user"></i>
-      </span>
-      <span class="site-uv" title="总访客量">
-        <span id="busuanzi_value_site_uv"></span>
-      </span>
-    </span>
-    <span class="post-meta-divider">|</span>
-    <span class="post-meta-item" id="busuanzi_container_site_pv" style="display: none;">
-      <span class="post-meta-item-icon">
-        <i class="fa fa-eye"></i>
-      </span>
-      <span class="site-pv" title="总访问量">
-        <span id="busuanzi_value_site_pv"></span>
-      </span>
-    </span>
-</div>
+https://www.cnblogs.com/wj-1314/p/11339707.html
+https://www.jianshu.com/p/d063804fb272
 
 
+Python多线程多线程的内容内涵本身就不再赘述了，本质就是多核并行。这里仅仅介绍Python多线程的语法：
+123456from threading import Threaddef ThreadFunc(args):    passt = Thread(target=ThreadFunc, args=args)t.start()
 
-
-
-
-
-
-      </div>
-    </footer>
-  </div>
-
-  
-  
-  <script color='255,255,255' opacity='0.8' zIndex='-1' count='150' src="/lib/canvas-nest/canvas-nest.min.js"></script>
-  <script size="300" alpha="0.6" zIndex="-1" src="/lib/canvas-ribbon/canvas-ribbon.js"></script>
-  <script src="/lib/anime.min.js"></script>
-  <script src="/lib/velocity/velocity.min.js"></script>
-  <script src="/lib/velocity/velocity.ui.min.js"></script>
-
-<script src="/js/utils.js"></script>
-
-<script src="/js/motion.js"></script>
-
-
-<script src="/js/schemes/pisces.js"></script>
-
-
-<script src="/js/next-boot.js"></script>
-
-<script src="/js/bookmark.js"></script>
-
-
-
-
-  
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-<link rel="stylesheet" href="//cdn.jsdelivr.net/npm/gitalk@1/dist/gitalk.min.css">
-
-<script>
-NexT.utils.loadComments(document.querySelector('#gitalk-container'), () => {
-  NexT.utils.getScript('//cdn.jsdelivr.net/npm/gitalk@1/dist/gitalk.min.js', () => {
-    var gitalk = new Gitalk({
-      clientID    : '9080ef420e8151c1010c',
-      clientSecret: '59e0bf682546e2a503cf9737213f749067c7e757',
-      repo        : 'xiangliangru.github.io',
-      owner       : 'xiangliangru',
-      admin       : ['xiangliangru'],
-      id          : '8b297685e79da7af27480481eb4fcc76',
-        language: 'zh-CN',
-      distractionFreeMode: true
-    });
-    gitalk.render('gitalk-container');
-  }, window.Gitalk);
-});
-</script>
-
-  
-
-  
-
-
-  <!-- 页面点击小红心 -->
-<script type="text/javascript" src="/js/love.js"></script>
-<!-- 雪花特效 -->
-<script type="text/javascript">
-  var windowWidth = $(window).width();
-  if (windowWidth > 480) {
-    document.write('<script type="text/javascript" src="/js/src/snow.js"><\/script>');
-  }
-</script>
-
-<script src="/live2dw/lib/L2Dwidget.min.js?094cbace49a39548bed64abff5988b05"></script><script>L2Dwidget.init({"model":{"jsonPath":"/live2dw/assets/haruto.model.json"},"display":{"position":"right","width":150,"height":300},"mobile":{"show":false},"log":false,"pluginJsPath":"lib/","pluginModelPath":"assets/","pluginRootPath":"live2dw/","tagMode":false});</script></body>
-</html>
+TensorFlow多线程机制TensorFlow对多线程的支持貌似是通过队列方法实现的。队列这种数据结构依然不赘述。这里仅介绍TensorFlow中对队列的应用方法。一般而言，TensorFlow由于计算中心在CPU/GPU和内存，而数据存储大多却在磁盘中。如果每次都是先读数据后计算的话会花费大量的无用时间。 ...</div></div></div><div class="recent-post-item"><div class="recent-post-info"><a class="article-title" href="/2020/08/27/my-first-blog/" title="我的第一篇博客">我的第一篇博客</a><div class="article-meta-wrap"><span class="post-meta-date"><i class="far fa-calendar-alt"></i><span class="article-meta-label">发表于</span><time datetime="2020-08-27T08:10:07.000Z" title="发表于 2020-08-27 16:10:07">2020-08-27</time></span></div><div class="content">&ensp;&ensp;&ensp;&ensp;搭博客搭得断断续续，前后耗时颇长。希望之后能够认真写一些东西，勿使自己的blog荒废才好。&ensp;&ensp;&ensp;&ensp;Besides:  
+&ensp;&ensp;&ensp;&ensp;-After all this time? Always.  
+</div></div></div><nav id="pagination"><div class="pagination"><span class="page-number current">1</span></div></nav></div><div class="aside-content" id="aside-content"><div class="card-widget card-info"><div class="card-info-avatar is-center"><img class="avatar-img" src="/img/avatar.jpg" onerror="this.onerror=null;this.src='/img/friend_404.gif'" alt="avatar"/><div class="author-info__name">疯狂的小相</div><div class="author-info__description"></div></div><div class="card-info-data"><div class="card-info-data-item is-center"><a href="/archives/"><div class="headline">文章</div><div class="length-num">6</div></a></div><div class="card-info-data-item is-center"><a href="/tags/"><div class="headline">标签</div><div class="length-num">5</div></a></div><div class="card-info-data-item is-center"><a href="/categories/"><div class="headline">分类</div><div class="length-num">2</div></a></div></div><a class="button--animated" id="card-info-btn" target="_blank" rel="noopener" href="https://github.com/xxxxxx"><i class="fab fa-github"></i><span>Follow Me</span></a><div class="card-info-social-icons is-center"><a class="social-icon" href="https://github.com/xiangliangru" target="_blank" title="Github"><i class="fab fa-github"></i></a></div></div><div class="card-widget card-announcement"><div class="item-headline"><i class="fas fa-bullhorn card-announcement-animation"></i><span>公告</span></div><div class="announcement_content">Welcome to my BLOG!</div></div><div class="sticky_layout"><div class="card-widget card-recent-post"><div class="item-headline"><i class="fas fa-history"></i><span>最新文章</span></div><div class="aside-list"><div class="aside-list-item"><a class="thumbnail" href="/2021/07/02/when-we-talk-about-tsinghua/" title="当我们谈到“清华”时，我们在说什么？"><img src="/img/background.jpg" onerror="this.onerror=null;this.src='/img/404.jpg'" alt="当我们谈到“清华”时，我们在说什么？"/></a><div class="content"><a class="title" href="/2021/07/02/when-we-talk-about-tsinghua/" title="当我们谈到“清华”时，我们在说什么？">当我们谈到“清华”时，我们在说什么？</a><time datetime="2021-07-01T16:15:01.000Z" title="发表于 2021-07-02 00:15:01">2021-07-02</time></div></div><div class="aside-list-item"><div class="content"><a class="title" href="/2021/01/23/ren-gong-zhi-neng-zong-jie/" title="人工智能导论 知识总结">人工智能导论 知识总结</a><time datetime="2021-01-23T10:42:25.000Z" title="发表于 2021-01-23 18:42:25">2021-01-23</time></div></div><div class="aside-list-item"><div class="content"><a class="title" href="/2020/12/31/2020-nian-zhong-zong-jie/" title="2020年终总结">2020年终总结</a><time datetime="2020-12-31T02:54:58.000Z" title="发表于 2020-12-31 10:54:58">2020-12-31</time></div></div><div class="aside-list-item"><div class="content"><a class="title" href="/2020/11/11/20-birthday/" title="20岁生日快乐！">20岁生日快乐！</a><time datetime="2020-11-11T12:49:16.000Z" title="发表于 2020-11-11 20:49:16">2020-11-11</time></div></div><div class="aside-list-item"><div class="content"><a class="title" href="/2020/09/02/tensorflow-duo-xian-cheng/" title="TensorFlow多线程">TensorFlow多线程</a><time datetime="2020-09-02T12:22:12.000Z" title="发表于 2020-09-02 20:22:12">2020-09-02</time></div></div></div></div><div class="card-widget card-categories"><div class="item-headline">
+            <i class="fas fa-folder-open"></i>
+            <span>分类</span>
+            
+            </div>
+            <ul class="card-category-list" id="aside-cat-list">
+            <li class="card-category-list-item "><a class="card-category-list-link" href="/categories/%E5%AD%A6%E4%B9%A0/"><span class="card-category-list-name">学习</span><span class="card-category-list-count">2</span></a></li><li class="card-category-list-item "><a class="card-category-list-link" href="/categories/%E7%94%9F%E6%B4%BB/"><span class="card-category-list-name">生活</span><span class="card-category-list-count">3</span></a></li>
+            </ul></div><div class="card-widget card-tags"><div class="item-headline"><i class="fas fa-tags"></i><span>标签</span></div><div class="card-tag-cloud"><a href="/tags/TensorFlow/" style="font-size: 1.1em; color: #999">TensorFlow</a> <a href="/tags/%E4%BA%BA%E5%B7%A5%E6%99%BA%E8%83%BD/" style="font-size: 1.1em; color: #999">人工智能</a> <a href="/tags/%E6%80%BB%E7%BB%93/" style="font-size: 1.5em; color: #99a9bf">总结</a> <a href="/tags/%E6%97%A5%E5%BF%97/" style="font-size: 1.5em; color: #99a9bf">日志</a> <a href="/tags/%E6%AC%A2%E8%BF%8E/" style="font-size: 1.1em; color: #999">欢迎</a></div></div><div class="card-widget card-archives"><div class="item-headline"><i class="fas fa-archive"></i><span>归档</span></div><ul class="card-archive-list"><li class="card-archive-list-item"><a class="card-archive-list-link" href="/archives/2021/07/"><span class="card-archive-list-date">七月 2021</span><span class="card-archive-list-count">1</span></a></li><li class="card-archive-list-item"><a class="card-archive-list-link" href="/archives/2021/01/"><span class="card-archive-list-date">一月 2021</span><span class="card-archive-list-count">1</span></a></li><li class="card-archive-list-item"><a class="card-archive-list-link" href="/archives/2020/12/"><span class="card-archive-list-date">十二月 2020</span><span class="card-archive-list-count">1</span></a></li><li class="card-archive-list-item"><a class="card-archive-list-link" href="/archives/2020/11/"><span class="card-archive-list-date">十一月 2020</span><span class="card-archive-list-count">1</span></a></li><li class="card-archive-list-item"><a class="card-archive-list-link" href="/archives/2020/09/"><span class="card-archive-list-date">九月 2020</span><span class="card-archive-list-count">1</span></a></li><li class="card-archive-list-item"><a class="card-archive-list-link" href="/archives/2020/08/"><span class="card-archive-list-date">八月 2020</span><span class="card-archive-list-count">1</span></a></li></ul></div><div class="card-widget card-webinfo"><div class="item-headline"><i class="fas fa-chart-line"></i><span>网站资讯</span></div><div class="webinfo"><div class="webinfo-item"><div class="item-name">文章数目 :</div><div class="item-count">6</div></div><div class="webinfo-item"><div class="item-name">本站访客数 :</div><div class="item-count" id="busuanzi_value_site_uv"></div></div><div class="webinfo-item"><div class="item-name">本站总访问量 :</div><div class="item-count" id="busuanzi_value_site_pv"></div></div><div class="webinfo-item"><div class="item-name">最后更新时间 :</div><div class="item-count" id="last-push-date" data-lastPushDate="2021-07-08T13:11:52.571Z"></div></div></div></div></div></div></main><footer id="footer"><div id="footer-wrap"><div class="copyright">&copy;2020 - 2021 By 疯狂的小相</div><div class="framework-info"><span>框架 </span><a target="_blank" rel="noopener" href="https://hexo.io">Hexo</a><span class="footer-separator">|</span><span>主题 </span><a target="_blank" rel="noopener" href="https://github.com/jerryc127/hexo-theme-butterfly">Butterfly</a></div></div></footer></div><div id="rightside"><div id="rightside-config-hide"><button id="darkmode" type="button" title="浅色和深色模式转换"><i class="fas fa-adjust"></i></button><button id="hide-aside-btn" type="button" title="单栏和双栏切换"><i class="fas fa-arrows-alt-h"></i></button></div><div id="rightside-config-show"><button id="rightside_config" type="button" title="设置"><i class="fas fa-cog fa-spin"></i></button><button id="chat_btn" type="button" title="rightside.chat_btn"><i class="fas fa-sms"></i></button><button id="go-up" type="button" title="回到顶部"><i class="fas fa-arrow-up"></i></button></div></div><div><script src="/js/utils.js"></script><script src="/js/main.js"></script><div class="js-pjax"></div><script async data-pjax src="//busuanzi.ibruce.info/busuanzi/2.3/busuanzi.pure.mini.js"></script></div><script src="/live2dw/lib/L2Dwidget.min.js?094cbace49a39548bed64abff5988b05"></script><script>L2Dwidget.init({"model":{"jsonPath":"/live2dw/assets/haruto.model.json"},"display":{"position":"right","width":150,"height":300},"mobile":{"show":false},"log":false,"pluginJsPath":"lib/","pluginModelPath":"assets/","pluginRootPath":"live2dw/","tagMode":false});</script></body></html>

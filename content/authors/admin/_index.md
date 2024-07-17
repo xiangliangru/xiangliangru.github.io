@@ -24,7 +24,7 @@ role: PhD Student
 
 # Organizations/Affiliations to display in Biography blox
 organizations:
-  - name: Department of Automation, Tsinghua University
+  - name: Tsinghua University
     url: https://www.au.tsinghua.edu.cn/
 
 # Social network links
@@ -190,4 +190,4 @@ I am currently a third year Ph.D candidate in [Tsinghua University](https://www.
 
  <!-- and Dr. [Yixin Zhu](https://yzhu.io/) -->
 
-I look forward to making the intelligent systems as smart as humans do. My research interests lie in causal reasoning, cognitive science, machine learning and AI4science. 
+I look forward to making the intelligent systems as smart as humans do. My research interests lie in causal cognition, cognitive science, machine learning and decision making.

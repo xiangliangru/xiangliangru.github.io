@@ -87,7 +87,7 @@ sections:
       # Filter on criteria
       filters:
         author: ""
-        category: News
+        categories: News
         tag: ""
         exclude_featured: false
         exclude_future: false
@@ -116,7 +116,7 @@ sections:
       # Filter on criteria
       filters:
         author: ""
-        category: ""
+        categories: Blog
         tag: ""
         exclude_featured: false
         exclude_future: false

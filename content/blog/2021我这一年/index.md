@@ -3,6 +3,7 @@ title: 我这一年
 summary: 回望过去，往前迈进。
 date: 2021-12-31
 reading_time: true
+draft: true
 authors:
   - admin
 tags:

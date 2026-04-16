@@ -3,6 +3,7 @@ title: 2023年终总结
 summary: 人生没有白走的路。
 date: 2023-12-31
 reading_time: true
+draft: true
 authors:
   - admin
 tags:

@@ -98,28 +98,28 @@ sections:
       # Reduce spacing
       spacing:
         padding: [0, 0, 0, 0]
-  - block: collection
-    id: blogs
-    content:
-      title: Blogs
-      subtitle: ''
-      text: ''
-      # Page type to display. E.g. post, talk, publication...
-      # page_type: blog
-      # Choose how many pages you would like to display (0 = all pages)
-      count: 6
-      # Filter on criteria
-      filters:
-        folders:
-          - blog
-      # Choose how many pages you would like to offset by
-      offset: 0
-      # Page order: descending (desc) or ascending (asc) date.
-      order: desc
-    design:
-      # Choose a layout view
-      view: article-grid
-      columns: 3
+  # - block: collection
+  #   id: blogs
+  #   content:
+  #     title: Blogs
+  #     subtitle: ''
+  #     text: ''
+  #     # Page type to display. E.g. post, talk, publication...
+  #     # page_type: blog
+  #     # Choose how many pages you would like to display (0 = all pages)
+  #     count: 6
+  #     # Filter on criteria
+  #     filters:
+  #       folders:
+  #         - blog
+  #     # Choose how many pages you would like to offset by
+  #     offset: 0
+  #     # Page order: descending (desc) or ascending (asc) date.
+  #     order: desc
+  #   design:
+  #     # Choose a layout view
+  #     view: article-grid
+  #     columns: 3
   - block: cta-card
     demo: true # Only display this section in the Hugo Blox Builder demo site
     content:

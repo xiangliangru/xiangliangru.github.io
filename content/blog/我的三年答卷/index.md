@@ -3,6 +3,7 @@ title: 我的三年答卷
 summary: 这篇文章写于咏恒合唱团成立15周年之际，作为自己在合唱团担任3年团长的个人总结。
 date: 2024-05-27
 reading_time: true
+draft: true
 authors:
   - admin
 tags:

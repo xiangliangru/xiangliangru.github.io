@@ -186,7 +186,7 @@ education:
 
 Hi! I am *Liangru Xiang* (相良儒). Welcome to my page!
 
-I am currently a third year Ph.D candidate in [Tsinghua University](https://www.tsinghua.edu.cn/), under the supervision of Prof. [Song-Chun Zhu](https://zhusongchun.net/). I am also an intern at Beijing Institute for General Artificial Intelligence ([BIGAI](https://www.bigai.ai/)). I received my bachelor degree from Department of Automation, Tsinghua University.
+I am currently a fourth year Ph.D candidate in [Tsinghua University](https://www.tsinghua.edu.cn/), under the supervision of Prof. [Song-Chun Zhu](https://zhusongchun.net/). I am also an intern at Beijing Institute for General Artificial Intelligence ([BIGAI](https://www.bigai.ai/)). I received my bachelor degree from Department of Automation, Tsinghua University.
 
  <!-- and Dr. [Yixin Zhu](https://yzhu.io/) -->
 
